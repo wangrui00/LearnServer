@@ -9,5 +9,8 @@ public class UUIDFactory {
 	public static String produceUUID(){
 		return UUID.randomUUID().toString();
 	}
-
+	
+	public static String getMeeting(){	
+		return produceUUID();
+	}
 }
